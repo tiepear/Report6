@@ -10,6 +10,14 @@ public class Main {
         Player user2 = new Player("Lily");
 
 
+
+        Card card = new Card();
+        card.card();
+
+        System.out.println(user1.name + card.playerCard1);
+        System.out.println(user2.name + card.playerCard2);
+
+
     }
 
 
