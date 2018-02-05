@@ -7,7 +7,7 @@ public class Judge {
         ArrayList<String> handCard1 = game.playerCard1;
         ArrayList<String> handCard2 = game.playerCard2;
         String card;
-
+        //どちらかの手札のカードが０になるまでゲームを続ける。
         while(true){
             if(handCard1.size() == 0){
                 System.out.println("勝者:" + user1.name);
@@ -20,7 +20,7 @@ public class Judge {
                 System.out.println("敗者:" + user1.name);
                 break;
             }
-
+            //カードをランダムに相手の手札から引く。
             card = handCard2.get((int)(Math.random()* handCard2.size()));
             if (handCard1.indexOf(card) == -1) {
                 handCard1.add(card);
