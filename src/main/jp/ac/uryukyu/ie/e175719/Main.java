@@ -4,6 +4,7 @@ import java.util.*;
 
 
 public class Main {
+
     public static void main(String[] args) {
 
         Player user1 = new Player("Selena");
@@ -16,6 +17,9 @@ public class Main {
 
         System.out.println(user1.name + card.playerCard1);
         System.out.println(user2.name + card.playerCard2);
+
+        Judge judge = new Judge();
+        judge.playGame(card,user1,user2);
 
 
     }
