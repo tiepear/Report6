@@ -11,7 +11,6 @@ public class Main {
         Player user2 = new Player("Lily");
 
 
-
         Card card = new Card();
         card.card();
 
@@ -19,7 +18,7 @@ public class Main {
         System.out.println(user2.name + card.playerCard2);
 
         Judge judge = new Judge();
-        judge.playGame(card,user1,user2);
+        judge.playGame(card, user1, user2);
 
     }
 
