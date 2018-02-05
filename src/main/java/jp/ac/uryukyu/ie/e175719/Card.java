@@ -11,7 +11,7 @@ public class Card {
 
         String[] cards = {"A", "2", "2", "3", "3", "4", "4", "5", "5", "6", "6", "7", "7", "8", "8", "9", "9", "10", "10", "J", "J", "Q", "Q", "K", "K" };
         List<String> list = Arrays.asList(cards);
-        Collections.shuffle(list);//カードをシャッフルする。
+        Collections.shuffle(list);//カードをシャッフルする
         String[] trump = (String[]) list.toArray(new String[list.size()]);
 
         ArrayList<String> user1Card = new ArrayList<String>();
