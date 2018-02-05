@@ -7,7 +7,7 @@ public class Judge {
         ArrayList<String> handCard1 = game.playerCard1;
         ArrayList<String> handCard2 = game.playerCard2;
 
-         String card;
+        String card;
 
         while(true){
             if(handCard1.size() == 0){
@@ -55,7 +55,3 @@ public class Judge {
     }
 
 }
-
-
-
-

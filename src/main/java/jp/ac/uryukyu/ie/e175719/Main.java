@@ -21,8 +21,6 @@ public class Main {
         Judge judge = new Judge();
         judge.playGame(card,user1,user2);
 
-
     }
-
 
 }
