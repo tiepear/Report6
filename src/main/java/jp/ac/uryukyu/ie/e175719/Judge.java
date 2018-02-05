@@ -20,7 +20,7 @@ public class Judge {
                 System.out.println("敗者:" + user1.name);
                 break;
             }
-            //カードをランダムに相手の手札から引く。
+            //カードをランダムに相手の手札から引く
             card = handCard2.get((int)(Math.random()* handCard2.size()));
             if (handCard1.indexOf(card) == -1) {
                 handCard1.add(card);
